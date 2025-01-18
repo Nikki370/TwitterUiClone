@@ -1,0 +1,9 @@
+=> npm init -y
+=> npm install -D Tailwind
+=> npx tailwind init
+=> write *html in tailwind config
+=> css/input.css
+=> then make any command like build in script in package.json and copy the commands from tailwind website
+=> then run npm run build
+=> include output.css in index.html
+=> 

@@ -1,0 +1,9 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore screenshots
+*.png
+
+# Other files to ignore
+.DS_Store
+.env

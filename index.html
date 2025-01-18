@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap">
+    <link rel="stylesheet" href="./css/output.css">
+
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex container mx-auto">
+        <div class="w-12 md:w-[70%] space-y-2 my-4">
+            <div class="logo sticky top-1 hidden md:block">
+                <svg viewBox="-15 0 200 24" aria-hidden="true" class="r-4qtqp9 m-auto r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="white"></path>
+                    </g>
+                </svg>  
+            </div>
+            <div class="sidebar flex justify-center sticky top-10">
+                <ul class=" flex flex-col text-2xl space-y-2 cursor-pointer font-bold text-gray-200">
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">home
+                    </span> <span class="hidden md:block">Home</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">search
+                    </span> <span class="hidden md:block">Explore</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">notifications
+                    </span> <span class="hidden md:block">Notifications</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">mail
+                    </span> <span class="hidden md:block">Messages</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">open_in_new_down
+                    </span> <span class="hidden md:block">Grok</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">group
+                    </span> <span class="hidden md:block">Communities</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">home
+                    </span> <span class="hidden md:block">Premium</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">electric_bolt
+                    </span><span class="hidden md:block"> Verified orgs</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">person
+                    </span> <span class="hidden md:block">Profile</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl">more
+                    </span> <span class="hidden md:block">More</span></li>
+                    <li class="flex gap-3 hover:bg-slate-700 rounded-3xl px-3 w-fit py-2"><span class="material-symbols-outlined text-2xl md:hidden">edit
+                    </span></li>
+                </ul>
+            </div>
+
+            <div class="flex justify-center items-center flex-col gap-4 sticky top-[72vh]">
+                <button class="p-3 m-4 w-[68%] bg-slate-100 text-black rounded-full font-bold text-lg hidden md:block">Post</button>
+                <div class="w-[70%] md:flex gap-3 hover:bg-gray-800 rounded-full p-2 cursor-pointer hidden">
+                    <div class=""><img src="https://i.pinimg.com/736x/c9/a5/f1/c9a5f15cc5abda14ccf31337e669464b.jpg" alt="" class="w-11 h-11 bg-cover rounded-full"></div>
+                    <div class="flex flex-col">
+                        <h2 class="font-bold">Nikita Pandey</h2>
+                        <p class="text-gray-600">@nikki01_P</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main w-fit md:w-full border border-x-gray-700 border-y-black  my-4">
+
+            <div class="text-gray-300 flex gap-5 font-bold justify-around p-4 sticky top-0 bg-black">
+                <div class="absolute w-24 bg-blue-400 h-2 rounded-full bottom-0 left-12"></div>
+                <p class="cursor-pointer text-white">For You</p>
+                <p class="cursor-pointer hover:text-white">Following</p>
+                <p class="cursor-pointer hover:text-white">CodeClan</p>
+            </div>
+
+            <div class="postBox py-4 px-3 border border-y-gray-700 border-x-black">
+                <div class="flex items-center gap-2">
+                    <div class=""><img src="https://i.pinimg.com/736x/c9/a5/f1/c9a5f15cc5abda14ccf31337e669464b.jpg" alt="" class="w-11 h-11 bg-cover rounded-full"></div>
+                    <div class="text-xl text-slate-300 p-2">
+                        <input type="text" placeholder="What is happening?!" class="bg-black outline-none">
+                    </div>
+                </div>
+                <div class="flex justify-between m-1 items-center">
+                    <div class="options ml-12">
+                        <div class="text-blue-400 cursor-pointer my-2">
+                            <span class="material-symbols-outlined hover:bg-blue-950 hover:rounded-full p-1.5">
+                                gallery_thumbnail
+                            </span>
+                            <span class="material-symbols-outlined hover:bg-blue-950 hover:rounded-full p-1.5">
+                                gif_box
+                            </span>
+                            <span class="material-symbols-outlined hover:bg-blue-950 hover:rounded-full p-1.5">
+                                mood
+                            </span>
+                            <span class="material-symbols-outlined hover:bg-blue-950 hover:rounded-full p-1.5">
+                                location_on
+                            </span>
+                            <span class="material-symbols-outlined hover:bg-blue-950 hover:rounded-full p-1.5">
+                                featured_video
+                            </span>
+                        </div>
+                    </div>
+                    <button class="bg-gray-400 hover:bg-gray-100 px-4 py-2 rounded-3xl text-black font-bold">Post</button>
+                </div>
+            </div>
+
+            <div class=" flex py-4 border border-y-gray-700 border-x-black pr-8">
+                <div class="profile mx-3"><img src="https://i.pinimg.com/736x/c9/a5/f1/c9a5f15cc5abda14ccf31337e669464b.jpg" alt="" class="w-12 rounded-full h-10"></div>
+                <div class="postContent w-[100%]">
+                    <div class="flex gap-2">
+                        <div class="name font-bold cursor-pointer">Nikita Pandey</div>
+                        <div class="text-gray-500">@nikki.p01</div>
+                        <div class="text-gray-500">.41m</div>
+                    </div>
+
+                    <div class="py-1">
+                        Hello i am nikita 
+                        wanna connect!
+                    </div>
+                    <p class="text-blue-400 hover:underline cursor-pointer my-2">show more</p>
+
+                    <div class="status flex justify-between gap-3 py-1 text-gray-500 text-sm cursor-pointer">
+                        <div class="comment flex items-center justify-center gap-1 hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-sm ">
+                            chat_bubble
+                            </span>
+                            <p class="text-sm">22</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1  hover:text-green-600 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                repeat
+                            </span>
+                            <p class="text-sm">19</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1  hover:text-pink-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                favorite
+                            </span>
+                            <p class="text-sm">51,293</p>
+                        </div>
+                        <div class="graph flex gap-1 justify-center items-center  hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-xl">
+                                signal_cellular_alt
+                            </span>
+                            <div class="text-sm">420k</div>
+                        </div>
+
+                        <div class="box flex gap-2">
+                            <div class="bookmark flex gap-1 justify-center items-center  hover:text-blue-500 hover:rounded-full p-1.5 ">
+                                <span class="material-symbols-outlined text-lg">
+                                    bookmark
+                                </span>
+                            </div>
+                            <div class="download flex justify-center items-center  hover:text-blue-500 hover:rounded-full p-1.5">
+                                <span class="material-symbols-outlined text-lg">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex py-3 pr-8 border border-y-gray-700 border-x-black">
+                <div class="profile mx-3"><img src="https://media.istockphoto.com/id/1088909778/photo/portrait-of-handsome-smiling-young-man-studio-shot.jpg?s=612x612&w=0&k=20&c=989h9CKzvxQ7-hXUnl7sNeIjJZYkiys7re7083JT4Es=" alt="" class="w-12 rounded-full h-10"></div>
+                <div class="postContent w-[100%]">
+                    <div class="flex gap-2">
+                        <div class="name font-bold cursor-pointer">Devaakar Shekhar</div>
+                        <div class="text-gray-500">@shekhar45</div>
+                        <div class="text-gray-500">51m</div>
+                    </div>
+                    
+                    <div class="py-1">
+                        <p class="py-1">I'm surprised by how many people waste time on useless apps.
+                            Here are 13 must-have apps you never knew you needed👇</p>
+                        <div class="postedImg"><img src="https://pbs.twimg.com/media/GgwtPjLa4AAVnP6?format=jpg&name=small" alt="" class="rounded-xl my-3 cursor-pointer"></div>
+                    </div>
+                    
+
+                    <div class="status flex justify-between gap-3 py-1 text-gray-500 text-sm cursor-pointer">
+                        <div class="comment flex items-center justify-center gap-1 hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-sm">
+                            chat_bubble
+                            </span>
+                            <p class="text-sm">398</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-green-600 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                repeat
+                            </span>
+                            <p class="text-sm">32k</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-pink-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base ">
+                                favorite
+                            </span>
+                            <p class="text-sm">2.2M</p>
+                        </div>
+                        <div class="graph flex gap-1 justify-center items-center hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-xl">
+                                signal_cellular_alt
+                            </span>
+                            <div class="text-sm">3.19M</div>
+                        </div>
+
+                        <div class="box flex gap-2">
+                            <div class="bookmark flex gap-1 justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    bookmark
+                                </span>
+                            </div>
+                            <div class="download flex justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex py-3 pr-8 border border-y-gray-700 border-x-black">
+                <div class="profile mx-3"><img src="https://media.istockphoto.com/id/1088909778/photo/portrait-of-handsome-smiling-young-man-studio-shot.jpg?s=612x612&w=0&k=20&c=989h9CKzvxQ7-hXUnl7sNeIjJZYkiys7re7083JT4Es=" alt="" class="w-12 rounded-full h-10"></div>
+                <div class="postContent w-[100%]">
+                    <div class="flex gap-2">
+                        <div class="name font-bold cursor-pointer">Devaakar Shekhar</div>
+                        <div class="text-gray-500">@shekhar45</div>
+                        <div class="text-gray-500">51m</div>
+                    </div>
+
+                    <div class="py-1">
+                        <p class="py-1">Just two days into CES 2025, and it's mind-blowing!</p>
+
+                        <p class="py-1">Just two days into CES 2025, and it's mind-blowing!
+
+                            These innovations will change how we use technology forever.
+                            
+                            Here are 12 most stunning reveals so far:</p>
+
+                        <p class="py-2">1. A wearable robot that allows wheelchair users to stand and walk.</p>
+
+                        <div class="postedImg"><img src="https://pbs.twimg.com/media/GgrFHmdaAAI8sl0?format=jpg&name=small" alt="" class="rounded-xl my-3 cursor-pointer"></div>
+                    </div>
+                    
+
+                    <div class="status flex justify-between gap-3 py-1 text-gray-500 text-sm cursor-pointer">
+                        <div class="comment flex items-center justify-center gap-1 hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-sm">
+                            chat_bubble
+                            </span>
+                            <p class="text-sm">98</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-green-600 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                repeat
+                            </span>
+                            <p class="text-sm">12k</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-pink-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                favorite
+                            </span>
+                            <p class="text-sm">2M</p>
+                        </div>
+                        <div class="graph flex gap-1 justify-center items-center hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-xl">
+                                signal_cellular_alt
+                            </span>
+                            <div class="text-sm">2.1M</div>
+                        </div>
+
+                        <div class="box flex gap-2">
+                            <div class="bookmark flex gap-1 justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    bookmark
+                                </span>
+                            </div>
+                            <div class="download flex justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex py-3 pr-8 border border-y-gray-700 border-x-black">
+                <div class="profile mx-3"><img src="https://media.istockphoto.com/id/1088909778/photo/portrait-of-handsome-smiling-young-man-studio-shot.jpg?s=612x612&w=0&k=20&c=989h9CKzvxQ7-hXUnl7sNeIjJZYkiys7re7083JT4Es=" alt="" class="w-12 rounded-full h-10"></div>
+                <div class="postContent w-[100%]">
+                    <div class="flex gap-2">
+                        <div class="name font-bold cursor-pointer">Devaakar Shekhar</div>
+                        <div class="text-gray-500">@shekhar45</div>
+                        <div class="text-gray-500">51m</div>
+                    </div>
+
+                    <div class="py-1">
+                        <p class="py-1">The secret to great marketing?
+
+                            <p>✅ Solve one problem.</p>
+                            <p>✅ For one group of people.</p>
+                            <p>✅ In a way that no one else can.</p>
+                            
+                            <p class="my-3">Start there, and let the ripple effect grow your impact. 🌊</p>
+                        </p>
+                    </div>
+                    
+
+                    <div class="status flex justify-between gap-3 py-1 text-gray-500 text-sm cursor-pointer">
+                        <div class="comment flex items-center justify-center gap-1 hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-sm">
+                            chat_bubble
+                            </span>
+                            <p class="text-sm">98</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-green-600 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                repeat
+                            </span>
+                            <p class="text-sm">12k</p>
+                        </div>
+                        <div class="flex items-center justify-center gap-1 hover:text-pink-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-base">
+                                favorite
+                            </span>
+                            <p class="text-sm">2M</p>
+                        </div>
+                        <div class="graph flex gap-1 justify-center items-center hover:text-blue-500 hover:rounded-full p-1.5 hover:bg-slate-900">
+                            <span class="material-symbols-outlined text-xl">
+                                signal_cellular_alt
+                            </span>
+                            <div class="text-sm">2.1M</div>
+                        </div>
+
+                        <div class="box flex gap-2">
+                            <div class="bookmark flex gap-1 justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    bookmark
+                                </span>
+                            </div>
+                            <div class="download flex justify-center items-center">
+                                <span class="material-symbols-outlined text-lg">
+                                    upload
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+        </div>
+
+
+        <div class="right w-[75%] my-4 py-2 px-5 hidden md:block">
+
+            <div class="serach bg-gray-800 px-4 py-2 rounded-full flex  items-center gap-1 sticky top-0">
+                <span class="material-symbols-outlined text-lg">
+                    search
+                </span>
+                <input type="text" placeholder="Search" class="bg-gray-800 px-2 rounded-full outline-none">
+            </div>
+
+            <div class="premium border border-gray-700 rounded-xl my-5">
+                <h1 class="font-bold text-xl py-2 px-4">Try Premium for free today</h1>
+                <p class="px-4 text-sm font-semibold">Upgrade your experience with less ads, power tools, and more with Premium.</p>
+                <button class="px-3 py-2 m-4 bg-slate-300 text-black rounded-full font-bold hover:bg-slate-100 cursor-pointer">Start free 14-days Trials</button>
+            </div>
+
+            <div class="premium border border-gray-700 rounded-xl my-4">
+                <h1 class="font-bold text-xl p-4">What’s happening</h1>
+                <div class="flex px-4 gap-4 py-2">
+                    <div class="photo">
+                        <img src="https://static.wixstatic.com/media/ebe4b4_10dfac2767f44afba9499caf70b8cc18~mv2.jpg/v1/fill/w_561,h_471,al_c/ebe4b4_10dfac2767f44afba9499caf70b8cc18~mv2.jpg" alt="" class="rounded-2xl w-24">
+                    </div>
+                    <div>
+                        <p class="font-bold">Anyma at Sphere</p>
+                        <p class="text-gray-600">LIVE</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="p-4 hover:bg-gray-900 cursor-pointer">
+                        <p class="text-sm text-gray-600">Trending in India</p>
+                        <p class="font-bold text-lg">COVID-19</p>
+                        <p class="text-sm text-gray-600">213k-Posts</p>
+                    </div>
+                    <div class="p-4 hover:bg-gray-900 cursor-pointer">
+                        <p class="text-sm text-gray-600">Travel Trending</p>
+                        <p class="font-bold text-lg">iit_Qualifications</p>
+                        <p class="text-sm text-gray-600">2.1M posts</p>
+                    </div>
+                    <div class="p-4 hover:bg-gray-900 cursor-pointer">
+                        <p class="text-sm text-gray-600">Politics-Trending</p>
+                        <p class="font-bold text-lg">Lucknow</p>
+                        <p class="text-sm text-gray-600">884k posts</p>
+                    </div>
+                    <p class="text-blue-400 px-4 py-4 hover:bg-gray-900 cursor-pointer hover:rounded-b-xl hover:underline">show more</p>
+                </div>
+            </div>
+
+            <div class="premium border border-gray-700 rounded-xl my-5 sticky top-14">
+                <h1 class="font-bold text-xl py-4 px-4">Who to follow</h1>
+                
+                <div class="follower">
+                    <div class="person flex justify-between p-4 hover:bg-gray-900 cursor-pointer items-center">
+                        <div class="flex gap-8">
+                            <div><img src="https://drascoedu.com/wp-content/uploads/2022/01/most-beautiful-campuses-oxford-university.webp" alt="" class="rounded-2xl w-20"></div>
+                            <div class="flex flex-col">
+                                <h4 class="font-bold">EC_council University</h4>
+                                <p class="text-gray-600">@ec-Council</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-slate-200 text-black font-bold rounded-2xl px-3 py-1">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="person flex justify-between p-4 hover:bg-gray-900 cursor-pointer items-center">
+                        <div class="flex gap-4">
+                            <div><img src="https://singleinthecity.floh.in/wp-content/uploads/2019/11/pragya-7625792629458730486.jpg" alt="" class="rounded-2xl w-20"></div>
+                            <div class="flex flex-col"></div>
+                            <div class="flex flex-col">
+                                <h4 class="font-bold">Pragya Bhatt</h4>
+                                <p class="text-gray-600">@pragya_bhatt</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-slate-200 text-black font-bold rounded-2xl px-3 py-1">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="person flex justify-between p-4 hover:bg-gray-900 cursor-pointer items-center">
+                        <div class="flex gap-4">
+                            <div><img src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2019/01/8K-TV.jpg" alt="" class="rounded-2xl w-20"></div>
+                            <div class="flex flex-col"></div>
+                            <div class="flex flex-col">
+                                <h4 class="font-bold">8K</h4>
+                                <p class="text-gray-600">@8k_sebeloo</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-slate-200 text-black font-bold rounded-2xl px-3 py-1">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-blue-400 px-4 py-4 hover:bg-gray-900 cursor-pointer hover:rounded-b-xl hover:underline">show more</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
