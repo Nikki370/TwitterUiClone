@@ -106,4 +106,8 @@ twitter-ui-clone/
 │
 ├── tailwind.config.js
 │
+<<<<<<< HEAD
 └── node_modules/
+=======
+└── node_modules/
+>>>>>>> 3936a5285fd0d0b9c066b47e53bfdf703f81691c
