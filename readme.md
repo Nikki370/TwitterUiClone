@@ -91,6 +91,10 @@ Follow these steps to set up the project locally:
 
 3. Open  in your browser to view the Twitter UI clone.
 
+
+## Hosted link
+https://mytwitterclone.freewebhostmost.com/
+
 ## Project Structure
 
 ```plaintext
@@ -111,3 +115,4 @@ twitter-ui-clone/
 =======
 └── node_modules/
 >>>>>>> 3936a5285fd0d0b9c066b47e53bfdf703f81691c
+
